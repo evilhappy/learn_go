@@ -115,6 +115,4 @@ func main() {
 	for k, v := range sliceList {
 		fmt.Println(k, v)
 	}
-
-
 }
