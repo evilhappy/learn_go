@@ -12,6 +12,10 @@ func main()  {
 	fmt.Println("当前时间")
 	formatStart := now.Format("2006-01-02 15:04:05")
 	fmt.Println(formatStart)
+	fmt.Println("时间戳")
+	timestamp := time.Now().Unix()
+	fmt.Println(timestamp)
+
 
 	fmt.Println("一分钟前")
 	m,_ := time.ParseDuration("-1m")
